@@ -102,7 +102,7 @@ for token, tag in result:
     print(f'{token} -> {tag}')
 ```
 
-## Citation
+## Citation 
 
 If you use this project, please cite this paper:
 
