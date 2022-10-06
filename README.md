@@ -109,4 +109,4 @@ If you use this project, please cite this paper:
 Elena Bruches, Anastasia Mezentseva, Tatiana Batura. 
 A system for information extraction from scientific texts in Russian. 2021.
 
-Link: https://arxiv.org/abs/2109.06703
+Link: https://arxiv.org/abs/2109.06703 
