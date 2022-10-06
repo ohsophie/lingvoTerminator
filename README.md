@@ -9,7 +9,7 @@ This tool includes the following modules:
 
 ## Installation and preparation
 
-If you want to try our extractor, do next steps:
+If you want to try our extractor, do next steps: 
 
 `git clone https://github.com/nsk-researchers/lingvoterminator`
 
