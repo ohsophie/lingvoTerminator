@@ -27,7 +27,7 @@ and put it to `terms_extractor/dl_extractor/weights`
 
  and put it all to `relation_extractor/dl_relation_extractor/weights`
 
-3. For entity linking:
+3. For entity linking: 
 
  3.1. Download prepocessed wikidata dump from [here](https://drive.google.com/file/d/1cSWLrbpq3f4PtRkAgIKiw_UNhshTgQOx/view?usp=sharing),
   unzip and put it to `entity_linker/wikidata_dump`;
