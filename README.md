@@ -13,7 +13,7 @@ If you want to try our extractor, do next steps:
 
 `git clone https://github.com/nsk-researchers/lingvoterminator`
 
-To use this tool one should download the files:
+To use this tool one should download the files: 
 1. For terms extraction download weights file from [here](https://drive.google.com/file/d/1ed4aCPPnP4Yvl5k_OmhB8eYgnSNlcM1n/view?usp=sharing) 
 and put it to `terms_extractor/dl_extractor/weights`
 
