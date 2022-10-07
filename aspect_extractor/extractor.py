@@ -102,7 +102,7 @@ class AspectExtractor:
 
         assert len(input_tokens) == len(updated_result), 'Alignment worked incorrect'
 
-        return updated_result
+        return updated_result 
 
     def _get_preds_with_tokens(self, bpe_tokens: List[str], preds: List[float]) -> List[Tuple[str, str]]:
         """ Из предсказаний для bpe-токенов получаем предскания для целых токенов
