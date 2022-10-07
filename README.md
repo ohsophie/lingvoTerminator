@@ -86,7 +86,7 @@ print(ru_el.get_linked_mention(term, context))
 
 ### Aspect extraction
 
-This module extracts aspects from the raw text.
+This module extracts aspects from the raw text. 
 
 ```python
 from aspect_extractor import AspectExtractor   
