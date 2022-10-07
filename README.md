@@ -73,7 +73,7 @@ relation = combined_extractor.extract(sample)
 ### Entity linking
 
 This module links terms with entities in Wikidata. 
-It requires extracted terms and their context as input.
+It requires extracted terms and their context as input.  
 
 ```python
 from entity_linker.entity_linker import RussianEntityLinker
