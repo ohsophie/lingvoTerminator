@@ -75,4 +75,4 @@ class DLExtractor(BaseExtractor):
             tag = Tags.B_TERM.value
         elif Tags.I_TERM.value in tags:
             tag = Tags.I_TERM.value
-        result.append((token_str, tag))
+        result.append((token_str, tag)) 
