@@ -30,7 +30,7 @@ class AspectExtractor:
         """
         if isinstance(text, str):
             tokens = tokenize(text)
-        else:
+        else: 
             tokens = text
         labels = ['O' for i in range(len(tokens))]
         all_bpe_tokens = []
