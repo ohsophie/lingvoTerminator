@@ -54,7 +54,7 @@ class DLExtractor(BaseExtractor):
 
     def _get_preds_with_tokens(self, bpe_tokens, preds):
         result = []
-        token = []
+        token = [] 
         tags = []
         for bpe_token, pred in zip(bpe_tokens, preds):
             if bpe_token.startswith('##'):
