@@ -6,7 +6,7 @@ import numpy as np
 from utils.constants import aspects_class2label
 from utils.paths import ASPECT_EXTRACTOR_WEIGHTS_PATH
 from utils.utilities import tokenize 
-from aspect_extractor.model import get_model
+from aspect_extractor.model import get_model 
 from aspect_extractor.vectorizer import Vectorizer
 from aspect_extractor.heuristic_validator import HeuristicValidator
 
