@@ -16,7 +16,7 @@ If you want to try our extractor, do next steps:
 To use this tool one should download the files:
 1. For terms extraction download weights file from [here](https://drive.google.com/file/d/1ed4aCPPnP4Yvl5k_OmhB8eYgnSNlcM1n/view?usp=sharing) 
 and put it to `terms_extractor/dl_extractor/weights`
-
+ 
 2. For relation extraction: 
 
  2.1. Download config file from [here](https://drive.google.com/file/d/1JtD3-GAs58xqrKiquFtcSsrV42DeGE0r/view?usp=sharing)
