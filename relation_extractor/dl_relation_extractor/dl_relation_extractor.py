@@ -16,7 +16,7 @@ class DLRelationExtractor:
         self._config = BertConfig.from_pretrained( 
             RELATION_EXTRACTOR_WEIGHTS_PATH,
             num_labels=len(RE_LABELS),
-            id2label={str(i): label for i, label in enumerate(RE_LABELS)},
+            id2label={str(i): label for i, label in enumerate(RE_LABELS)}, 
             label2id={label: i for i, label in enumerate(RE_LABELS)},
         )
         self._model_args = torch.load(os.path.join(RELATION_EXTRACTOR_WEIGHTS_PATH, 'training_args.bin'))
