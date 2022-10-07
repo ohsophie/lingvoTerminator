@@ -1,4 +1,4 @@
-# Terminator 
+# Terminator
 _Intelligent Tool for Information extraction from texts written in Russian language_  
  
 This tool includes the following modules:
