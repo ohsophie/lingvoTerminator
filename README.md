@@ -8,7 +8,7 @@ This tool includes the following modules:
 * <strong>Aspect extraction</strong> — identifying and extracting terms relevant for opinion mining and sentiment analysis.
 
 ## Installation and preparation
-
+ 
 If you want to try our extractor, do next steps:  
 
 `git clone https://github.com/nsk-researchers/lingvoterminator` 
