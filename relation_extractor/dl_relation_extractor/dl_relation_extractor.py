@@ -13,7 +13,7 @@ class DLRelationExtractor:
 
     def __init__(self):
         self._vectorizer = Vectorizer()
-        self._config = BertConfig.from_pretrained(
+        self._config = BertConfig.from_pretrained( 
             RELATION_EXTRACTOR_WEIGHTS_PATH,
             num_labels=len(RE_LABELS),
             id2label={str(i): label for i, label in enumerate(RE_LABELS)},
