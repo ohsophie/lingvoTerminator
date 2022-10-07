@@ -9,7 +9,7 @@ from relation_extractor.dl_relation_extractor.model import get_model
 from relation_extractor.dl_relation_extractor.vectorizer import Vectorizer
 
 
-class DLRelationExtractor:
+class DLRelationExtractor: 
 
     def __init__(self):
         self._vectorizer = Vectorizer()
