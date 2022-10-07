@@ -12,7 +12,7 @@ from terms_extractor.dl_extractor.heuristic_validator import HeuristicValidator
 
 
 class DLExtractor(BaseExtractor):
- 
+  
     def __init__(self):
         self._model = get_model()
         self._model.load_weights(TERMS_EXTRACTOR_WEIGHTS_PATH)
