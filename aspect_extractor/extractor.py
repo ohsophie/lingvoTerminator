@@ -148,7 +148,7 @@ class AspectExtractor:
         :param token: список bpe-токенов для данного токена
         """
         # объединяем составные bpe-токены в единую строку
-        token_str = ''.join(token)
+        token_str = ''.join(token) 
 
         # складываем вероятности тэгов для каждого из составных bpe-токенов
         probability_sums = defaultdict(float)
