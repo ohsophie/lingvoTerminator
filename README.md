@@ -89,7 +89,7 @@ print(ru_el.get_linked_mention(term, context))
 This module extracts aspects from the raw text. 
 
 ```python
-from aspect_extractor import AspectExtractor   
+from aspect_extractor import AspectExtractor  
 
 extractor = AspectExtractor()
 text = "Определена модель для визуализации связей между объектами и их атрибутами в различных процессах. " \
