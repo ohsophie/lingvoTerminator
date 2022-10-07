@@ -1,7 +1,7 @@
 import torch
 import os
 import numpy as np
-
+ 
 from transformers import BertConfig
 from utils.paths import RELATION_EXTRACTOR_WEIGHTS_PATH
 from utils.constants import RE_LABELS
