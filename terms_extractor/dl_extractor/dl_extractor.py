@@ -6,7 +6,7 @@ from utils.constants import Tags, class2label
 from utils.paths import TERMS_EXTRACTOR_WEIGHTS_PATH
 from utils.utilities import validate_sequence, tokenize
 from terms_extractor.base_extractor import BaseExtractor
-from terms_extractor.dl_extractor.model import get_model
+from terms_extractor.dl_extractor.model import get_model 
 from terms_extractor.dl_extractor.vectorizer import Vectorizer
 from terms_extractor.dl_extractor.heuristic_validator import HeuristicValidator
 
