@@ -18,7 +18,7 @@ To use this tool one should download the files:
 and put it to `terms_extractor/dl_extractor/weights`
  
 2. For relation extraction: 
-
+ 
  2.1. Download config file from [here](https://drive.google.com/file/d/1JtD3-GAs58xqrKiquFtcSsrV42DeGE0r/view?usp=sharing)
  
  2.2. Download model file from [here](https://drive.google.com/file/d/1ksg-ZXDa8Fd10w3wPNxU8j-bk8B2YhTb/view?usp=sharing)
