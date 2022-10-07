@@ -22,7 +22,7 @@ class DLRelationExtractor:
         self._model_args = torch.load(os.path.join(RELATION_EXTRACTOR_WEIGHTS_PATH, 'training_args.bin'))
         self._device = "cuda" if torch.cuda.is_available() else "cpu"
         self._model = get_model(RELATION_EXTRACTOR_WEIGHTS_PATH, self._config, self._model_args, self._device)
-
+ 
     def extract(self, text: str) -> str:
 
         # Convert text into features
