@@ -20,7 +20,7 @@ class AspectExtractor:
         self._model.load_weights(weights_path)
         self._vectorizer = Vectorizer()
         self._heuristic_validator = HeuristicValidator()
-        self._class2label = aspects_class2label
+        self._class2label = aspects_class2label 
         self._THRESHOLD = 0.1
 
     def extract(self, text: Union[str, List[str]]) -> List[Tuple[str, str]]:
