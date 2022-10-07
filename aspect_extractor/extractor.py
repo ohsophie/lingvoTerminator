@@ -17,7 +17,7 @@ class AspectExtractor:
     def __init__(self):
         weights_path = ASPECT_EXTRACTOR_WEIGHTS_PATH
         self._model = get_model()
-        self._model.load_weights(weights_path)
+        self._model.load_weights(weights_path) 
         self._vectorizer = Vectorizer()
         self._heuristic_validator = HeuristicValidator()
         self._class2label = aspects_class2label 
