@@ -23,9 +23,7 @@ and put it to `terms_extractor/dl_extractor/weights`
  
  2.2. Download model file from [here](https://drive.google.com/file/d/1ksg-ZXDa8Fd10w3wPNxU8j-bk8B2YhTb/view?usp=sharing)
  
- 2.3. Download model arguments file from [here](https://drive.google.com/file/d/1IvCCwj7-68MFx71bFX9kkUm_A1RQzxs-/view?usp=sharing)
-
- and put it all to `relation_extractor/dl_relation_extractor/weights`
+ 2.3. Download model arguments file from [here](https://drive.google.com/file/d/1IvCCwj7-68MFx71bFX9kkUm_A1RQzxs-/view?usp=sharing) and put it all to `relation_extractor/dl_relation_extractor/weights`
 
 3. For entity linking: 
 
