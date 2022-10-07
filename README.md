@@ -1,5 +1,5 @@
 # Terminator 
-_Tool for Information extraction from Russian texts_ 
+_Intelligent Tool for Information extraction from Russian texts_ 
 
 This tool includes the following modules: 
 * <strong>Terms extraction</strong> — identifying phrases which fulfil the criteria for terms.
