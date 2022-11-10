@@ -1,18 +1,30 @@
+import os
+import json
 from typing import List, Dict, Set, Any
 
 import orjson
 
+from utils.paths import ENTITY_LINKER
 from entity_linker.entity_linking_pipeline.candidates_generator import BaseCandidatesGenerator
 
 
 class StringMatchCandidatesGenerator(BaseCandidatesGenerator):
     """ Генерация кандидатов по построковому совпадению """
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, config, is_use_predefined_candidates=False):
+        super().__init__(config)
+        self._predefined_candidates = None
+        if is_use_predefined_candidates:
+            predefined_dump_path = os.path.join(ENTITY_LINKER, 'additional_data/predicted_entities_dump.json')
+            with open(predefined_dump_path, 'r') as f:
+                self._predefined_candidates = json.load(f)
 
     def create_candidates_set(self, normalized_term: str, queries: Set[str]):
-        return self._get_string_match_candidates(normalized_term, queries)
+        if self._predefined_candidates:
+            candidates = self._predefined_candidates[normalized_term]
+        else:
+            candidates = self._get_string_match_candidates(normalized_term, queries)
+        return candidates
 
     def _get_string_match_candidates(self, normalized_term: str, queries: Set[str]) -> List[Dict[str, Any]]:
         result = list()

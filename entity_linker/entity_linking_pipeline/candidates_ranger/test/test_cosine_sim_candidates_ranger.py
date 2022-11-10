@@ -26,6 +26,6 @@ class TestCosineSimRanger(unittest.TestCase):
     def test_vector_with_tf_idf(self):
         with open('01.pickle', 'rb') as f:
             true_vector_first = pickle.load(f)
-        candidates_ranger = CosineSimRanger(is_use_tf_idf=True)
+        candidates_ranger = CosineSimRanger()
         # для определённой фразы посмотреть, что возвращается вектор с нужными значениями
         self.assertEqual(true_vector_first.all(), candidates_ranger._get_vector_for_phrase(self._text).all())
