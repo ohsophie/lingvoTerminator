@@ -1,7 +1,7 @@
 {
   "entity_linker": {
     "path_to_json_file": "/home/anastasia/PycharmProjects/entity_linking/entity_linker/latest-ru-2-lem.json",
-    "path_to_fasttext_model": "/home/anastasia/PycharmProjects/entity_linking/entity_linker/fasttext.bin",
+    "path_to_fasttext_model": "entity_linker/fasttext_model",
     "path_to_corpus_for_tfidf" : "Software Systems/"
   }
 }

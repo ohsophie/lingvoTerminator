@@ -3,3 +3,5 @@ numpy == 1.20.3
 orjson
 pymystem3
 scikit-learn
+catboost
+fasttext
