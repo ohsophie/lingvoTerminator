@@ -38,7 +38,7 @@ and put it to `aspect_extractor/weights`
 ## How to use
 
 ### Terms extraction
-
+ 
 This module extracts terms from the raw text. 
  
 ```python
