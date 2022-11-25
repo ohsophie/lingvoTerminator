@@ -52,7 +52,7 @@ result = combined_extractor.extract(text)
 for token, tag in result:
     print(f'{token} -> {tag}')
 ```
-
+ 
 ### Relation extraction
 
 This module extracts relations between two terms. 
