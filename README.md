@@ -67,7 +67,7 @@ combined_extractor = CombinedRelationExtractor()
 sample = '<e1>Модель</e1> используется в методе генерации и определения форм слов для решения ' \ 
          '<e2>задач морфологического синтеза</e2> и анализа текстов.'
 
-relation = combined_extractor.extract(sample)
+relation = combined_extractor.extract(sample) 
 ```
 
 ### Entity linking
