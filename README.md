@@ -6,7 +6,7 @@ This tool includes the following modules:
 * <strong>Relation extraction</strong> — predicting attributes and relations for entities in a sentence. 
 * <strong>Entity linking</strong> — matching an entity mentioned in a text with an entity in a structured knowledge base.
 * <strong>Aspect extraction</strong> — identifying and extracting terms relevant for opinion mining and sentiment analysis.
-
+ 
 ## Installation and preparation
  
 If you want to try our extractor, do next steps: 
