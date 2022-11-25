@@ -1,7 +1,7 @@
 # Terminator
 _Intelligent Tool for Information extraction from texts written in Russian language_  
  
-This tool includes the following modules:
+This tool includes the following modules: 
 * <strong>Terms extraction</strong> — identifying phrases which fulfil the criteria for terms. 
 * <strong>Relation extraction</strong> — predicting attributes and relations for entities in a sentence. 
 * <strong>Entity linking</strong> — matching an entity mentioned in a text with an entity in a structured knowledge base.
